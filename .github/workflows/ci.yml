@@ -34,7 +34,7 @@ jobs:
         run: composer install --no-progress --no-suggest --no-interaction --prefer-dist --optimize-autoloader
 
       - name: PHPUnit
-        run: php vendor/bin/phpunit
+        run: php vendor/bin/phpunit --coverage-clover ./coverage/lcov.info
 
       - name: Uploading code coverage
         uses: coverallsapp/github-action@master
