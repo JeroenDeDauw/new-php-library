@@ -1,6 +1,8 @@
 # PHP Library Template
 
-[![Build Status](https://travis-ci.org/JeroenDeDauw/new-php-library.svg?branch=master)](https://travis-ci.org/JeroenDeDauw/new-php-library)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/JeroenDeDauw/new-php-library/CI)](https://github.com/JeroenDeDauw/new-php-library/actions?query=workflow%3ACI)
+[![Code Coverage](https://scrutinizer-ci.com/g/JeroenDeDauw/new-php-library/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/JeroenDeDauw/new-php-library/?branch=master)
+[![Type Coverage](https://shepherd.dev/github/JeroenDeDauw/new-php-library/coverage.svg)](https://shepherd.dev/github/JeroenDeDauw/new-php-library)
 
 This is a template for starting new PHP libraries. Copy or fork to get started quickly.
 
