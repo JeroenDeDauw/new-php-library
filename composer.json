@@ -9,7 +9,7 @@
 		"phpunit/phpunit": "^9.3",
 		"vimeo/psalm": "^3.15",
 		"phpstan/phpstan": "^0.12.42",
-		"twinh/php-coveralls": "^2.3"
+		"php-coveralls/php-coveralls": "^2.2"
 	},
 	"autoload": {
 		"psr-4": {
