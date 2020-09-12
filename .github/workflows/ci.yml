@@ -34,18 +34,7 @@ jobs:
         run: composer install --no-progress --no-suggest --no-interaction --prefer-dist --optimize-autoloader
 
       - name: PHPUnit
-        if: ${{ matrix.php != '7.4' }}
         run: php vendor/bin/phpunit
-
-      - name: PHPUnit
-        if: ${{ matrix.php == '7.4' }}
-        run: php vendor/bin/phpunit --coverage-clover build/logs/clover.xml
-
-      - name: Upload code coverage
-        if: ${{ matrix.php == '7.4' }}
-        run: php vendor/bin/php-coveralls -v
-        env:
-          COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   static-analysis:
     name: "Static Analysis"
