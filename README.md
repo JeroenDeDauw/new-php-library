@@ -1,6 +1,6 @@
 # PHP Library Template
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/JeroenDeDauw/new-php-library/CI)](https://github.com/JeroenDeDauw/new-php-library/actions?query=workflow%3ACI)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/JeroenDeDauw/new-php-library/ci.yml?branch=master)](https://github.com/JeroenDeDauw/new-php-library/actions?query=workflow%3ACI)
 [![Type Coverage](https://shepherd.dev/github/JeroenDeDauw/new-php-library/coverage.svg)](https://shepherd.dev/github/JeroenDeDauw/new-php-library)
 
 This is a template for starting new PHP libraries. Copy or fork to get started quickly.
